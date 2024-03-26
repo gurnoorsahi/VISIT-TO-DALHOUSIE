@@ -135,3 +135,29 @@ body {
   font-size: 30px;
   color: white;
 }
+
+.text {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.phonetext {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Oswald', sans-serif;
+}
+
+@media only screen and (max-width: 600px)
+{
+  .container{
+    font-size: 26px;
+    line-height: 50;
+  text-align:center;
+  color: white;
+  }
+}
